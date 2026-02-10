@@ -2,7 +2,7 @@
 
 Reusable `ui-design` skill package for Codex.
 
-## Demo
+## Demo (One-shot)
 
 - Live demo: `https://demo-codex-design.vercel.app`
 - GitHub: `https://github.com/hursh-shah/demo-codex-design`
