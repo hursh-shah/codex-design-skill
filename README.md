@@ -39,3 +39,7 @@ After installing, restart Codex so the new skill is loaded.
 ## Skill folder
 
 - `ui-design/` - skill package (`SKILL.md`, `agents/openai.yaml`, `references/`, `LICENSE.txt`)
+
+## License
+
+Apache License 2.0 (`Apache-2.0`). See `ui-design/LICENSE.txt`.
