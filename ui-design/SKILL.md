@@ -17,6 +17,30 @@ Default to Next.js unless the user requests another framework.
 
 Follow these steps in order.
 
+### Step 0: Security gate for Next.js (CVE-2025-55182)
+
+If the project uses Next.js, verify the installed `next` version before doing implementation work.
+
+Treat these versions as vulnerable and require upgrade first:
+
+- `>=14.3.0-canary.77` and `<15.0.5`
+- `>=15.1.0-canary.0` and `<15.1.9`
+- `>=15.2.0-canary.0` and `<15.2.6`
+- `>=15.3.0-canary.0` and `<15.3.6`
+- `>=15.4.0-canary.0` and `<15.4.8`
+- `>=15.5.0-canary.0` and `<15.5.7`
+- `>=16.0.0-canary.0` and `<16.0.7`
+
+Accept only patched versions for this CVE:
+
+- `15.0.5`, `15.1.9`, `15.2.6`, `15.3.6`, `15.4.8`, `15.5.7` or newer patch in those lines
+- `16.0.7` or newer
+- `15.6.0-canary.58+` and `16.1.0-canary.12+`
+
+`13.x` and `14.x` stable releases are not affected by this CVE.
+
+When version status is unclear, upgrade to the latest stable Next.js release before continuing.
+
 ### Step 1: Confirm implementation brief
 
 Collect only the critical inputs:

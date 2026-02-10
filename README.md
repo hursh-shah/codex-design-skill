@@ -16,6 +16,7 @@ Core behavior:
 - Sets a clear visual direction before coding (tone, layout, typography, color, motion), using Anthropics frontend-design philosophy
 - Uses targeted 21st.dev inspiration only for specific components when needed
 - Prioritizes production-ready output: responsive layouts, accessibility states, and validation checks
+- Enforces a Next.js security gate for `CVE-2025-55182` before implementation
 
 Requirements for 21st.dev inspiration:
 
