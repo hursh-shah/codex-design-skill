@@ -1,0 +1,4 @@
+interface:
+  display_name: "UI Design"
+  short_description: "Build distinctive, production-ready UI in code"
+  default_prompt: "Use $ui-design to implement this interface directly in code with a strong visual direction (Next.js by default unless I specify another framework)."
