@@ -31,7 +31,7 @@ Prerequisite: `skill-installer` is available (it is a built-in system skill in c
 Install from this repo’s GitHub skill directory URL:
 
 ```bash
-$skill-installer install https://github.com/<owner>/<repo>/tree/main/ui-design
+$skill-installer install https://github.com/hursh-shah/codex-design-skill/tree/main/ui-design
 ```
 
 After installing, restart Codex so the new skill is loaded.
