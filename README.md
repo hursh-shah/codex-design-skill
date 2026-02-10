@@ -4,7 +4,8 @@ Reusable `ui-design` skill package for Codex.
 
 ## Demo
 
-- Example project built with this workflow: `https://github.com/hursh-shah/demo-codex-design`
+- Live demo: `https://demo-codex-design.vercel.app`
+- GitHub: `https://github.com/hursh-shah/demo-codex-design`
 
 ## What this skill does
 
