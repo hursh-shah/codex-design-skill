@@ -2,6 +2,10 @@
 
 Reusable `ui-design` skill package for Codex.
 
+## Demo
+
+- Example project built with this workflow: `https://github.com/hursh-shah/demo-codex-design`
+
 ## What this skill does
 
 `ui-design` helps Codex design and implement frontend UI directly in code (not just mockups).
